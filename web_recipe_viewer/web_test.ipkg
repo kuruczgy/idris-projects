@@ -1,0 +1,11 @@
+package web_test
+main = Main
+depends =
+	contrib,
+	elab-util,
+	sop,
+	sci_tools
+executable = "index.html"
+opts = "--codegen javascript --directive minimal"
+-- opts = "--codegen javascript"
+sourcedir = "src"

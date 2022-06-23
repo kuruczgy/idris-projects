@@ -1,0 +1,11 @@
+package sci_tools
+depends =
+	contrib,
+	elab-util,
+	sop
+modules =
+	SciTools.Recipe,
+	SciTools.RecipeSyntax,
+	SciTools.Units,
+	SciTools.Syntax
+sourcedir = "src"

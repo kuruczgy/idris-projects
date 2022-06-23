@@ -1,0 +1,5 @@
+package libwebsockets_test
+main = Main
+sourcedir = "src"
+executable = main
+opts = "--codegen refc"
